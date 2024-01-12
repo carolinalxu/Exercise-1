@@ -75,7 +75,7 @@ const TransitMap = () => {
       </header>
 
       <MapContainer style={{ height: "90vh", width: "120rem" }} center={[49.25926999181031, -122.96347419054722]} zoom={14} scrollWheelZoom={true}>
-        <TileLayer attribution='&copy; <a href="">By Carolina Loo Xu</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+        <TileLayer attribution='&copy; <a href="https://github.com/carolinalxu/Exercise-1.git">By Carolina Loo Xu</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
 
         {millStations.map((millennium, index) => (
           <div key={index}>
