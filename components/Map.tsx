@@ -71,7 +71,7 @@ const TransitMap = () => {
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', height: '150vh' }}>
       <header>
         <Image src="/image/logo.png" width={100} height={100} alt="station-logo"/>
-        <h1>Carolina's Transit Map</h1>
+        <h1>Carolina&apos;s Transit Map</h1>
       </header>
 
       <MapContainer style={{ height: "90vh", width: "120rem" }} center={[49.25926999181031, -122.96347419054722]} zoom={14} scrollWheelZoom={true}>
